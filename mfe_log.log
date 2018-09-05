@@ -1,0 +1,370 @@
+nohup: ignoring input
+
+> myapp@0.0.0 start /root/mfe_express/myapp
+> node ./bin/www
+
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt' ]
+[0mGET / [36m304 [0m495.146 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m4.800 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.945 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt' ]
+[0mGET / [36m304 [0m140.330 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m1.257 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.482 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt' ]
+[0mGET / [36m304 [0m90.648 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.756 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m0.614 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt' ]
+[0mGET / [36m304 [0m55.657 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.653 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m2.132 ms - -[0m
+[0mGET /hello-docker.txt [32m200 [0m11.409 ms - 9050[0m
+[0mPOST /upload [36m302 [0m32.538 ms - 46[0m
+上传成功!
+[0mGET / [0m- [0m- ms - -[0m
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/root/mfe_express/myapp/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/mfe_express/myapp/node_modules/express/lib/response.js:170:12)
+    at done (/root/mfe_express/myapp/node_modules/express/lib/response.js:1004:10)
+    at Object.exports.renderFile (/root/mfe_express/myapp/node_modules/jade/lib/index.js:374:12)
+    at View.exports.__express [as engine] (/root/mfe_express/myapp/node_modules/jade/lib/index.js:417:11)
+    at View.render (/root/mfe_express/myapp/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/mfe_express/myapp/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/root/mfe_express/myapp/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/mfe_express/myapp/node_modules/express/lib/response.js:1008:7)
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '林大钟-classroom.json' ]
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '林大钟-classroom.json' ]
+[0mGET / [32m200 [0m91.328 ms - 1752[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.919 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m0.529 ms - -[0m
+[0mGET /%E6%9E%97%E5%A4%A7%E9%92%9F-classroom.json [32m200 [0m3.669 ms - 2328[0m
+[0mGET /download/%E6%9E%97%E5%A4%A7%E9%92%9F-classroom.json [32m200 [0m6.822 ms - 2328[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '林大钟-classroom.json' ]
+[0mGET / [32m200 [0m127.749 ms - 1752[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.647 ms - 111[0m
+[0mGET /javascripts/index.js [32m200 [0m1.597 ms - 136[0m
+[0mGET /favicon.ico [33m404 [0m60.993 ms - 1052[0m
+[0mPOST /upload [36m302 [0m42.804 ms - 46[0m
+上传成功!
+[0mGET / [0m- [0m- ms - -[0m
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/root/mfe_express/myapp/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/mfe_express/myapp/node_modules/express/lib/response.js:170:12)
+    at done (/root/mfe_express/myapp/node_modules/express/lib/response.js:1004:10)
+    at Object.exports.renderFile (/root/mfe_express/myapp/node_modules/jade/lib/index.js:374:12)
+    at View.exports.__express [as engine] (/root/mfe_express/myapp/node_modules/jade/lib/index.js:417:11)
+    at View.render (/root/mfe_express/myapp/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/mfe_express/myapp/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/root/mfe_express/myapp/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/mfe_express/myapp/node_modules/express/lib/response.js:1008:7)
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [32m200 [0m53.602 ms - 1998[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.736 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m0.827 ms - -[0m
+[0mGET /%E5%85%AC%E5%8F%B8%E6%96%B0%E7%94%B5%E8%84%91-%E7%A6%BB%E7%BA%BF%E6%B5%8B%E8%AF%95%E5%AD%A6%E7%94%9F%E5%90%8D%E5%8D%95.xlsx [32m200 [0m2.754 ms - 8689[0m
+[0mGET /download/%E5%85%AC%E5%8F%B8%E6%96%B0%E7%94%B5%E8%84%91-%E7%A6%BB%E7%BA%BF%E6%B5%8B%E8%AF%95%E5%AD%A6%E7%94%9F%E5%90%8D%E5%8D%95.xlsx [32m200 [0m1.957 ms - 8689[0m
+[0mGET /%E6%9E%97%E5%A4%A7%E9%92%9F-classroom.json [32m200 [0m2.371 ms - 2328[0m
+[0mGET /-crossenv.png [32m200 [0m1.618 ms - 86356[0m
+[0mPOST /upload [31m500 [0m40196.451 ms - 931[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.515 ms - -[0m
+[0mGET /download/%E6%9E%97%E5%A4%A7%E9%92%9F-classroom.json [32m200 [0m1.619 ms - 2328[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m48.121 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.473 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m0.481 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m53.042 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m4.768 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.274 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m27.690 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m1.530 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.659 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m32.487 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m2.352 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.152 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m31.180 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m1.304 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.039 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m26.408 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m4.013 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.669 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m29.497 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m0.683 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.962 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m26.795 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m0.854 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.893 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m24.165 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m1.249 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.051 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m31.317 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m1.928 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.345 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m38.949 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m1.174 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.554 ms - -[0m
+[0mPOST /upload [36m302 [0m14.538 ms - 46[0m
+上传成功!
+[0mGET / [0m- [0m- ms - -[0m
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/root/mfe_express/myapp/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/mfe_express/myapp/node_modules/express/lib/response.js:170:12)
+    at done (/root/mfe_express/myapp/node_modules/express/lib/response.js:1004:10)
+    at Object.exports.renderFile (/root/mfe_express/myapp/node_modules/jade/lib/index.js:374:12)
+    at View.exports.__express [as engine] (/root/mfe_express/myapp/node_modules/jade/lib/index.js:417:11)
+    at View.render (/root/mfe_express/myapp/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/mfe_express/myapp/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/root/mfe_express/myapp/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/mfe_express/myapp/node_modules/express/lib/response.js:1008:7)
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '张时啊-classroom.json',
+  '林大钟-classroom.json' ]
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '张时啊-classroom.json',
+  '林大钟-classroom.json' ]
+[0mGET / [32m200 [0m29.152 ms - 2181[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.799 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m0.540 ms - -[0m
+[0mGET /%E6%9E%97%E5%A4%A7%E9%92%9F-classroom.json [36m304 [0m2.468 ms - -[0m
+[0mGET /%E6%9E%97%E5%A4%A7%E9%92%9F-classroom.json [36m304 [0m1.665 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m29.813 ms - -[0m
+[0mGET /-crossenv.png [36m304 [0m3.439 ms - -[0m
+[0mGET /123-allProto.png [32m200 [0m3.257 ms - 79976[0m
+[0mGET /download/2020142126-%E8%B7%91%E5%AD%A6%E6%A0%A1%E6%95%B0%E6%8D%AE.png [32m200 [0m34.064 ms - 16636[0m
+[0mPOST /upload [31m500 [0m54.491 ms - 1033[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.032 ms - -[0m
+[0mGET /-crossenv.png [36m304 [0m0.848 ms - -[0m
+[0mPOST /upload [31m500 [0m60.180 ms - 1033[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.545 ms - -[0m
+[0mPOST /upload [36m302 [0m5.063 ms - 46[0m
+上传成功!
+[0mGET / [0m- [0m- ms - -[0m
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/root/mfe_express/myapp/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/mfe_express/myapp/node_modules/express/lib/response.js:170:12)
+    at done (/root/mfe_express/myapp/node_modules/express/lib/response.js:1004:10)
+    at Object.exports.renderFile (/root/mfe_express/myapp/node_modules/jade/lib/index.js:374:12)
+    at View.exports.__express [as engine] (/root/mfe_express/myapp/node_modules/jade/lib/index.js:417:11)
+    at View.render (/root/mfe_express/myapp/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/mfe_express/myapp/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/root/mfe_express/myapp/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/mfe_express/myapp/node_modules/express/lib/response.js:1008:7)
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '张时啊-bd.txt',
+  '张时啊-classroom.json',
+  '林大钟-classroom.json' ]
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '张时啊-bd.txt',
+  '张时啊-classroom.json',
+  '林大钟-classroom.json' ]
+[0mGET / [32m200 [0m41.693 ms - 2340[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.526 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m2.257 ms - -[0m
+[0mGET /%E5%BC%A0%E6%97%B6%E5%95%8A-bd.txt [32m200 [0m1.522 ms - 64[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '张时啊-bd.txt',
+  '张时啊-classroom.json',
+  '林大钟-classroom.json' ]
+[0mGET / [32m200 [0m66.481 ms - 2340[0m
+[0mGET /javascripts/index.js [36m304 [0m2.756 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.717 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '张时啊-bd.txt',
+  '张时啊-classroom.json',
+  '林大钟-classroom.json' ]
+[0mGET / [36m304 [0m36.490 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.987 ms - -[0m
+[0mGET /javascripts/index.js [36m304 [0m2.154 ms - -[0m
+[ '-crossenv.png',
+  '1123-wb-setup.txt',
+  '123-allProto.png',
+  '123123-students.csv',
+  '2020142126-跑学校数据.png',
+  'hello-docker.txt',
+  '公司新电脑-离线测试学生名单.xlsx',
+  '张时啊-bd.txt',
+  '张时啊-classroom.json',
+  '林大钟-classroom.json' ]
+[0mGET / [32m200 [0m23.706 ms - 2340[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.017 ms - 111[0m
+[0mGET /javascripts/index.js [32m200 [0m0.922 ms - 136[0m

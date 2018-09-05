@@ -1,0 +1,16 @@
+#安装配置文件，请勿随便修改。
+
+
+#豌豆拼安装路径，可以自行制定
+wb_setup_dir=C:\
+
+#豌豆拼资料文件夹路径，可以自行制定
+wb_dir=D:\wbdata0824
+
+#是否一键安装
+wb_fast_setup=yes
+
+#在一键安装设置为yes后，需要指定是否使用education插件，
+#yes后会去当前目录下(ide.exe)寻找course.wbcoursetset和students.csv文件，安装完成后打开education插件
+#no后表示不需要导入课程，安装完成后打开ide
+wb_use_plugins=yes
