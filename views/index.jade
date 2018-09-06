@@ -1,32 +1,96 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  p -------文件上传--------
-  form(action='/upload', method="post", enctype="multipart/form-data")
-    p 
-      input(type='text', name="id", placeholder="输入文件标识")
-    p
-      input(type="file", name="img")
-    p
-      button(type="submit") 点击上传
-  p --------文件上传-------
+  div#container
+    div#container-left
+      div#logo
+        img(src="/images/mfe.png", style="height: 350px;")
+    div#container-right
+      h1= title 
+      h3 梦孚小工具（上传，下载，预览）
+      p ------------文件上传-----(单个文件限制10M以内))-------------
+      form(action='/upload', method="post", enctype="multipart/form-data")
+        p 
+          input(type='text', name="id", placeholder="输入文件标识",required='required') 
+          span  --->
+          span
+            input(type="file", name="img",required='required', id="file-input")
+        p
+          button(type="submit", id='submit-btn') 确定上传
+      p ------------文件上传------------------------------------
 
 
-  h3 文件库
-  ol
-    each val in imageNames
-      li
-        a(href=val) [预览]
-        span /
-        a(href="/download/"+val) [下载]
-        span ----[
-        =val
-        span ]
-      
-        
+      h2 #{title}文件库
+      div#libs(style="overflow-y: scroll;height: 450px")
+        ol
+          each val in imageNames
+            li
+              a(href=val) [预览]
+              span /
+              a(href="/download/"+val) [下载]
+              span ----[
+              =val
+              span ]
+            br
+
+        //- - data = ['apple', 'orange', 'pear']
+        //- - for (let i = 0; i < data.length; i++) {
+        //-     span(id="dd") #{i} ---
+        //-     span=data[i]
+        //-     br
+        //- - }
+
+    
   
+      
+  style.
+      body {
+        background-color: #f9f9f9;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+        background-color: rgba(0,0,0,.3);
+        border-radius: 5px;
+      }
 
+      ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: rgba(0,165,0,.6);  
+        //- -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+      }
 
+      #container {
+        display:flex;
+      }
+      #container-left {
+        flex: 1;
+        display: flex;
+        align-self: center;
+        justify-content: flex-end;
+      }
+      #container-right {
+        flex: 1.5;
+        padding: 10px;
+      }
+      #dd {
+        color: red;
+      }
+      #submit-btn {
+        color: #33a1d0;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+        width: 450px;
+      }
+      #submit-btn:hover {
+        background: skyblue;
+      }
+       #file-input {
+         font-size:16px;
+      }
+      input {
+        height: 25px;
+        width: 200px;
+        padding-left: 10px;
+      }
   script(src="/javascripts/index.js",type="text/javascript")
