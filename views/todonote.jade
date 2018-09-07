@@ -1,0 +1,13 @@
+extends layout
+
+block css_js
+    link(rel='stylesheet', href='/stylesheets/todonote.css')
+
+block content
+    each note,index in notes
+        p 序号：#{index+1}
+        p id: #{note.note_id}
+        p 心情: #{note.note_mood}
+        p= note.note_content
+        p 创建时间: #{note.create_time}
+        hr

@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    - for (let i = 0; i < lists.length; i++) {
+        p= lists[i].todo_title
+        p= lists[i].todo_content
+        p= lists[i].create_time
+        hr
+    - }
